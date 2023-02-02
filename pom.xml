@@ -12,6 +12,7 @@
         <module>dhondt</module>
         <module>randomAccess</module>
         <module>randomAccessII</module>
+        <module>hotel</module>
     </modules>
 
     <properties>

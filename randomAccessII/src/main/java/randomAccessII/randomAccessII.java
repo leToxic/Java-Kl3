@@ -65,14 +65,14 @@ public class randomAccessII {
                             order.add('d');
                         }
 
-                        case 't', 'f' -> {
-                            if (ch == 't') {
-                                ret.get("Boolean").offer(true);
-                                order.add('t');
-                            } else {
-                                ret.get("Boolean").offer(false);
-                                order.add('f');
-                            }
+                        case 't' -> {
+                            ret.get("Boolean").offer(true);
+                            order.add('t');
+                        }
+
+                        case 'f' -> {
+                            ret.get("Boolean").offer(false);
+                            order.add('f');
                         }
 
                     }
@@ -88,18 +88,16 @@ public class randomAccessII {
     public static void makeUnsinnloseDatei(String filename, Map<String, Queue<Object>> map, List<Character> order) throws IOException {
         try (RandomAccessFile raf = new RandomAccessFile(filename, "rw")) {
             for (Character ch : order) {
-                try {
-                    switch (ch) {
-                        case 'i' -> raf.writeBytes(map.get("Integer").remove().toString() + "\n");
-                        case 'd' -> raf.writeBytes(map.get("Double").remove().toString() + "\n");
-                        case 't', 'f' -> raf.writeBytes(map.get("Boolean").remove().toString() + "\n");
-                    }
-
-                } catch (Exception ignored) {
+                switch (ch) {
+                    case 'i' -> raf.writeBytes(map.get("Integer").remove().toString() + "\n");
+                    case 'd' -> raf.writeBytes(map.get("Double").remove().toString() + "\n");
+                    case 't', 'f' -> raf.writeBytes(map.get("Boolean").remove().toString() + "\n");
                 }
+
             }
         }
     }
+
 
     public static void main(String[] args) throws IOException {
         createFile("randomAccessII/src/main/resources/read.txt", "randomAccessII/src/main/resources/write.txt");
