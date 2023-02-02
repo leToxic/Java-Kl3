@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dhondt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/randomAccess/pom.xml" afterDir="false" />
+    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/CheckIntTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/FileBasedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/NumbersTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomAccess/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/randomAccess/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +33,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2LBPH2oOpr6aXg9ncL3lRFzZyHG" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,18 +50,19 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "editor.preferences.import"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Schule\Java-Kl3\randomAccess\src\test\java\randomAccess" />
+      <recent name="C:\Schule\Java-Kl3\randomAccessII\src\main\resources" />
+      <recent name="C:\Schule\Java-Kl3\randomAccessII\src\main\java" />
+      <recent name="C:\Schule\Java-Kl3\randomAccessII\src\main" />
       <recent name="C:\Schule\Java-Kl3\randomAccess\src\main\java" />
-      <recent name="C:\Schule\Java-Kl3\dhondt\src\test\java" />
-      <recent name="C:\Schule\Java-Kl3\dhondt\src\main\java" />
-      <recent name="C:\Schule\Java-Kl3\test\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.randomAccessII">
+  <component name="RunManager" selected="JUnit.dhondt in dhondt">
     <configuration name="randomAccessII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randomAccessII.randomAccessII" />
       <module name="randomAccessII" />
@@ -91,8 +91,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dhondt in dhondt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dhondt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dhondt.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dhondt" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="randomAccess in randomAccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="randomAccess" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="randomAccess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="randomAccess" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.dhondt in dhondt" />
+        <item itemvalue="JUnit.randomAccess in randomAccess" />
         <item itemvalue="Application.randomAccessII" />
         <item itemvalue="JUnit.SeatCalculatorTest" />
       </list>
@@ -106,8 +136,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675341414964</updated>
-      <workItem from="1675341416793" duration="618000" />
+      <workItem from="1675341416793" duration="982000" />
+      <workItem from="1675342414059" duration="21000" />
+      <workItem from="1675342448795" duration="151000" />
+      <workItem from="1675342615318" duration="95000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1675342198604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675342198604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,5 +164,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
