@@ -98,7 +98,6 @@ public class randomAccessII {
         }
     }
 
-
     public static void main(String[] args) throws IOException {
         createFile("randomAccessII/src/main/resources/read.txt", "randomAccessII/src/main/resources/write.txt");
         List<Character> uebergabe = new ArrayList<>();
@@ -113,4 +112,3 @@ public class randomAccessII {
         makeUnsinnloseDatei("randomAccessII/src/main/resources/writeSinnvoll.txt", leseAus, uebergabe);
     }
 }
-
