@@ -100,15 +100,15 @@ public class randomAccessII {
 
     public static void main(String[] args) throws IOException {
         createFile("randomAccessII/src/main/resources/read.txt", "randomAccessII/src/main/resources/write.txt");
-        List<Character> uebergabe = new ArrayList<>();
-        Map<String, Queue<Object>> leseAus = getMap("randomAccessII/src/main/resources/write.txt", uebergabe);
+        List<Character> order = new ArrayList<>();
+        Map<String, Queue<Object>> leseAus = getMap("randomAccessII/src/main/resources/write.txt", order);
 
         for (String s : leseAus.keySet()) {
             System.out.println(leseAus.get(s));
         }
 
-        System.out.println(uebergabe);
+        System.out.println(order);
 
-        makeUnsinnloseDatei("randomAccessII/src/main/resources/writeSinnvoll.txt", leseAus, uebergabe);
+        makeUnsinnloseDatei("randomAccessII/src/main/resources/writeSinnvoll.txt", leseAus, order);
     }
 }
