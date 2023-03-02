@@ -13,7 +13,7 @@ import java.util.EnumSet;
 
 public class FileBasedTest {
 
-    public static final String TESTFILE_NAME = "test.dat";
+    public static final String TESTFILE_NAME = "src/main/resources/test.dat";
 
     protected static void setReadOnly() throws IOException {
         Path path = Path.of(TESTFILE_NAME);

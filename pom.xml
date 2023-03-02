@@ -13,6 +13,7 @@
         <module>randomAccess</module>
         <module>randomAccessII</module>
         <module>hotel</module>
+        <module>DeleteLines_Pipe</module>
     </modules>
 
     <properties>

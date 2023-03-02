@@ -1,10 +1,6 @@
 package dhondt;
 
-/**
- * Created: 19.01.2023 at 11:44
- *
- * @author Plasek Sebastian
- */
+
 public class Party implements Comparable<Party> {
     private String name;
     private Integer seats;

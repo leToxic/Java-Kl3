@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="testing">
+    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="hotels funktioniert nicht">
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/AsciiInputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/pipe/Pipe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/pipe/StreamCopier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/outputpipe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/src/main/java/hotel/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/src/main/java/hotel/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hotel/src/test/java/hotel/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/hotel/src/test/java/hotel/HotelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomAccessII/src/main/java/randomAccessII/randomAccessII.java" beforeDir="false" afterPath="$PROJECT_DIR$/randomAccessII/src/main/java/randomAccessII/randomAccessII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dhondt/src/main/java/dhondt/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/dhondt/src/main/java/dhondt/Party.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/FileBasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/FileBasedTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +60,40 @@
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Schule\Java-Kl3\deletelines_pipe\src\main\resources" />
+      <recent name="C:\Schule\Java-Kl3\DeleteLines_Pipe" />
+      <recent name="C:\Schule\Java-Kl3\DeleteLines_Pipe\src\main\java" />
       <recent name="C:\Schule\Java-Kl3\hotel\src\main\java\hotel" />
       <recent name="C:\Schule\Java-Kl3\hotel\src\test\java\hotel" />
-      <recent name="C:\Schule\Java-Kl3\hotel\src\main\resources" />
-      <recent name="C:\Schule\Java-Kl3\randomAccess\src\test\java\randomAccess" />
-      <recent name="C:\Schule\Java-Kl3\randomAccessII\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HotelTest">
+  <component name="RunManager" selected="Application.Pipe">
+    <configuration name="DeleteLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="deleteLines.DeleteLines" />
+      <module name="deletelines_pipe" />
+      <option name="PROGRAM_PARAMETERS" value="input.txt output.txt 0-3 5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pipe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pipe.Pipe" />
+      <module name="deletelines_pipe" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pipe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="randomAccessII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="randomAccessII.randomAccessII" />
       <module name="randomAccessII" />
@@ -91,38 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dhondt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dhondt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dhondt" />
-      <option name="MAIN_CLASS_NAME" value="dhondt.SeatCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeatCalculatorTest.at_least_one_valid_vote_required" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="dhondt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dhondt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dhondt" />
-      <option name="MAIN_CLASS_NAME" value="dhondt.SeatCalculatorTest" />
-      <option name="METHOD_NAME" value="at_least_one_valid_vote_required" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="randomAccess in randomAccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckIntTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="randomAccess" />
       <extension name="coverage">
         <pattern>
@@ -131,18 +131,28 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="randomAccess" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="randomAccess.CheckIntTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Pipe" />
+      <item itemvalue="Application.DeleteLines" />
+      <item itemvalue="Application.randomAccessII" />
+      <item itemvalue="JUnit.HotelTest" />
+      <item itemvalue="TestNG.CheckIntTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HotelTest" />
+        <item itemvalue="Application.Pipe" />
+        <item itemvalue="Application.DeleteLines" />
         <item itemvalue="Application.randomAccessII" />
-        <item itemvalue="JUnit.SeatCalculatorTest.at_least_one_valid_vote_required" />
-        <item itemvalue="JUnit.SeatCalculatorTest" />
-        <item itemvalue="JUnit.randomAccess in randomAccess" />
+        <item itemvalue="TestNG.CheckIntTest" />
+        <item itemvalue="JUnit.HotelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +177,15 @@
       <workItem from="1676275496310" duration="159000" />
       <workItem from="1676280942212" duration="9000" />
       <workItem from="1676796438228" duration="498000" />
-      <workItem from="1676799057499" duration="59000" />
+      <workItem from="1676799057499" duration="136000" />
+      <workItem from="1676811504523" duration="15000" />
+      <workItem from="1677483581277" duration="6000" />
+      <workItem from="1677569988906" duration="362000" />
+      <workItem from="1677593088859" duration="8000" />
+      <workItem from="1677670211753" duration="25000" />
+      <workItem from="1677670454032" duration="27000" />
+      <workItem from="1677670499065" duration="410000" />
+      <workItem from="1677752055184" duration="6824000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675342198604</created>
@@ -190,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675422431852</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="hotels funktioniert nicht">
+      <created>1676799131838</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676799131838</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="hotels funktioniert nicht" />
+    <option name="LAST_COMMIT_MESSAGE" value="hotels funktioniert nicht" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
