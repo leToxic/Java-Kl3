@@ -18,10 +18,8 @@ public class AsciiInputStream extends FileInputStream {
         int c;
         StringBuilder ret = new StringBuilder();
         while ((c = this.read()) > 0) {
-            if (c == '\r') {
-                if (this.read() == '\n') {
-                    break;
-                }
+            if (c == '\r' && this.read() == '\n') {
+                break;
             }
             ret.append((char) c);
         }

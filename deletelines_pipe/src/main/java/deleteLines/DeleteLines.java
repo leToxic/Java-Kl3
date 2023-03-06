@@ -25,8 +25,8 @@ public class DeleteLines {
                 }
                 counter++;
             }
-        } catch (IOException e) {
-            throw new RuntimeException(e);
+        } catch (IOException fnf) {
+            System.out.println("Fehler: " + fnf);
         }
     }
 
