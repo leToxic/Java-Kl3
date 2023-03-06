@@ -14,14 +14,14 @@ import java.util.List;
 public class DeleteLines {
 
     public static void deleteLines(String input, String output, List<Integer> lines) {
-        String fileToRes = "deletelines_pipe/src/main/resources/";
-        try (AsciiInputStream ais = new AsciiInputStream(fileToRes + input);
-             PrintWriter fos = new PrintWriter(fileToRes + output)) {
+        String pathToRes = "deletelines_pipe/src/main/resources/";
+        try (AsciiInputStream ais = new AsciiInputStream(pathToRes + input);
+             PrintWriter pw = new PrintWriter(pathToRes + output)) {
             int counter = 0;
-            String s = "";
+            String s;
             while ((s = ais.readLine()) != null) {
                 if (!lines.contains(counter)) {
-                    fos.println(s);
+                    pw.println(s);
                 }
                 counter++;
             }

@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="hotels funktioniert nicht">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/AsciiInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/pipe/Pipe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/pipe/StreamCopier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/outputpipe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="DeleteLines &amp; Pipe fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dhondt/src/main/java/dhondt/Party.java" beforeDir="false" afterPath="$PROJECT_DIR$/dhondt/src/main/java/dhondt/Party.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/FileBasedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/randomAccess/src/test/java/randomAccess/FileBasedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +173,9 @@
       <workItem from="1677670211753" duration="25000" />
       <workItem from="1677670454032" duration="27000" />
       <workItem from="1677670499065" duration="410000" />
-      <workItem from="1677752055184" duration="6824000" />
+      <workItem from="1677752055184" duration="6876000" />
+      <workItem from="1677765751414" duration="291000" />
+      <workItem from="1677769719925" duration="32000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675342198604</created>
@@ -215,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676799131838</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DeleteLines &amp; Pipe fertig">
+      <created>1677758929603</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677758929603</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +233,8 @@
     <MESSAGE value="init" />
     <MESSAGE value="testing" />
     <MESSAGE value="hotels funktioniert nicht" />
-    <option name="LAST_COMMIT_MESSAGE" value="hotels funktioniert nicht" />
+    <MESSAGE value="DeleteLines &amp; Pipe fertig" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeleteLines &amp; Pipe fertig" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
