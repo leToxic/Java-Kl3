@@ -1,3 +1,5 @@
+package pOS;
+
 import java.io.*;
 
 /**
@@ -5,7 +7,7 @@ import java.io.*;
  *
  * @author Plasek Sebastian
  */
-public class Player implements Comparable<Player>, Serializable {
+public class Player implements Comparable<Player> {
     private String alias;
     private Integer year_lastMatch;
     private Integer month_lastMatch;

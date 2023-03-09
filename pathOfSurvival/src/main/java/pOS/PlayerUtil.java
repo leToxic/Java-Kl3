@@ -1,3 +1,5 @@
+package pOS;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +20,6 @@ public class PlayerUtil {
             dis.skip(1337);
             int playerCount = dis.readShort();
             System.out.println(offset);
-
 
             for (int i = 0; i < playerCount; i++) {
                 byte[] arr = new byte[dis.readShort()];
