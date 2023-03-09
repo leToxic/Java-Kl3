@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="DeleteLines &amp; Pipe fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/AsciiInputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/AsciiInputStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/java/deleteLines/DeleteLines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/outputpipe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deletelines_pipe/src/main/resources/outputpipe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +61,7 @@
       <recent name="C:\Schule\Java-Kl3\hotel\src\test\java\hotel" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DeleteLines">
+  <component name="RunManager" selected="Application.Pipe">
     <configuration name="DeleteLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="deleteLines.DeleteLines" />
       <module name="deletelines_pipe" />
@@ -140,8 +137,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DeleteLines" />
         <item itemvalue="Application.Pipe" />
+        <item itemvalue="Application.DeleteLines" />
         <item itemvalue="Application.randomAccessII" />
         <item itemvalue="TestNG.CheckIntTest" />
         <item itemvalue="JUnit.HotelTest" />
@@ -181,7 +178,11 @@
       <workItem from="1677765751414" duration="291000" />
       <workItem from="1677769719925" duration="32000" />
       <workItem from="1678094137570" duration="15000" />
-      <workItem from="1678094181061" duration="395000" />
+      <workItem from="1678094181061" duration="856000" />
+      <workItem from="1678102426604" duration="165000" />
+      <workItem from="1678178819771" duration="51000" />
+      <workItem from="1678179014135" duration="4000" />
+      <workItem from="1678258903888" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675342198604</created>
@@ -225,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678094145129</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="DeleteLines &amp; Pipe fertig">
+      <created>1678094584004</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678094584004</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

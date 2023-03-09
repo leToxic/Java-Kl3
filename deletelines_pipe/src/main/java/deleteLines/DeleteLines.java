@@ -14,7 +14,7 @@ import java.util.List;
 public class DeleteLines {
 
     public static void deleteLines(String input, String output, List<Integer> lines) {
-        String pathToRes = "deletelines_pipe/src/main/resources/";
+        final String pathToRes = "deletelines_pipe/src/main/resources/";
         try (AsciiInputStream ais = new AsciiInputStream(pathToRes + input);
              PrintWriter pw = new PrintWriter(pathToRes + output)) {
             int counter = 0;
@@ -31,8 +31,8 @@ public class DeleteLines {
     }
 
     public static void main(String[] args) {
-        ArrayList<String> toDelete = new ArrayList<>(List.of(Arrays.copyOfRange(args, 2, args.length)));
-        ArrayList<Integer> toDeleteLines = new ArrayList<>();
+        List<String> toDelete = new ArrayList<>(List.of(Arrays.copyOfRange(args, 2, args.length)));
+        List<Integer> toDeleteLines = new ArrayList<>();
 
         for (String s : toDelete) {
             if (s.contains("-")) {
