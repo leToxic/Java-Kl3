@@ -14,6 +14,7 @@
         <module>randomAccessII</module>
         <module>hotel</module>
         <module>DeleteLines_Pipe</module>
+        <module>pathOfSurvival</module>
     </modules>
 
     <properties>
