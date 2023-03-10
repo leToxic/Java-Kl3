@@ -29,18 +29,17 @@ public class Player implements Comparable<Player> {
     }
 
     public byte[] getBytes() throws IOException {
-        ByteArrayOutputStream baos = new ByteArrayOutputStream();
-        DataOutputStream dos = new DataOutputStream(baos);
-        dos.writeUTF(alias);
-        dos.writeInt(year_lastMatch);
-        dos.writeInt(month_lastMatch);
-        dos.writeInt(day_LastMatch);
-        dos.writeInt(spm);
-        dos.writeInt(wins);
-        dos.writeInt(loses);
-        return baos.toByteArray();
-
-
+        try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
+             DataOutputStream dos = new DataOutputStream(baos)) {
+            dos.writeUTF(alias);
+            dos.writeInt(year_lastMatch);
+            dos.writeInt(month_lastMatch);
+            dos.writeInt(day_LastMatch);
+            dos.writeInt(spm);
+            dos.writeInt(wins);
+            dos.writeInt(loses);
+            return baos.toByteArray();
+        }
     }
 
     public String getAlias() {

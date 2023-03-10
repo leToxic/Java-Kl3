@@ -6,8 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="9833d8e7-d145-4fdd-9590-266b58d0d80b" name="Changes" comment="PlayerUtil fertig">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pathOfSurvival/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pathOfSurvival/src/main/java/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/PlayerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/PlayerUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/pathOfSurvival/src/main/java/pOS/PlayerUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pathOfSurvival/src/main/resources/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/pathOfSurvival/src/main/resources/output.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,6 +179,8 @@
       <workItem from="1678357488477" duration="6905000" />
       <workItem from="1678373131427" duration="963000" />
       <workItem from="1678374148360" duration="87000" />
+      <workItem from="1678374299450" duration="33000" />
+      <workItem from="1678431731108" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1675342198604</created>
@@ -242,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678365426751</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="PlayerUtil fertig">
+      <created>1678374307556</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678374307557</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
